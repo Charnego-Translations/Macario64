@@ -109,6 +109,7 @@
 'z' = CN_ZERO 0x3D
 '\'' = CN_ZERO 0x3E
 '.' = CN_ZERO 0x3F
+'ñ' = CN_ZERO 0x40
 
 // Mario face US/EU menu string (Note: NOT multi-text, each char has a part of the face)
 '☺' = CN_ZERO 0x40, CN_ZERO 0x41

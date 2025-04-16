@@ -2113,6 +2113,11 @@ ALIGNED8 static const Texture texture_font_char_us_n[] = {
 #include "textures/segment2/font_graphics.06540.ia4.inc.c"
 };
 
+ALIGNED8 static const Texture texture_font_char_us_enye[] = {
+#include "textures/segment2/font_graphics.06990.ia4.inc.c"
+};
+
+
 ALIGNED8 static const Texture texture_font_char_us_o[] = {
 #include "textures/segment2/font_graphics.06580.ia4.inc.c"
 };
@@ -11079,7 +11084,7 @@ const Texture *const main_font_lut[] = {
 #if defined(VERSION_CN)
     texture_font_char_cn_16800, texture_font_char_cn_16840, 0x0,           0x0,
 #else
-                  0x0,               0x0,               0x0,               0x0,
+                  texture_font_char_us_enye,               0x0,               0x0,               0x0,
 #endif
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,

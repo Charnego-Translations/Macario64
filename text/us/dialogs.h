@@ -275,11 +275,11 @@ Shhh! Please walk\n\
 quietly in the hallway!"))
 
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
-Dear Mario:\n\
+Dear Macario:\n\
 Te recuerdo que me debes\n\
-6000 pesetas de whisky. Si\n\
-manana no me pagas se acabo\n\
-el comer aqui!--\n\
+6000 pesetas de whisky.\n\
+Si mañana no me pagas\n\
+se acabo de comer aqui!\n\
 Princess Toadstool"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
